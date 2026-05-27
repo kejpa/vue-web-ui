@@ -13,6 +13,11 @@ body {
     font-size: var(--font-size-base);
     background-color: var(--color-background);
     color: var(--color-text);
+
+    background-image: url('@/assets/images/bakgrund.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* ─────────────────────────────────────────
@@ -22,6 +27,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
+    max-width: 1340px;
+    margin: 0 auto;
 }
 
 .app-header {
