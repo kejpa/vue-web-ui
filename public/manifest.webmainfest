@@ -1,0 +1,9 @@
+{
+  "name": "Vue PWA Template",
+  "short_name": "VuePWA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#42b883",
+  "icons": []
+}

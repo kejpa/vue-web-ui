@@ -1,0 +1,10 @@
+name: Frontend CI
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  ci:
+    uses: 3584573427749/.github/workflows/frontend-base-ci.yml@main
